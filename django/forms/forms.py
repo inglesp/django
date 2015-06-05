@@ -76,6 +76,7 @@ class BaseForm(object):
     # class, not to the Form class.
     field_order = None
     prefix = None
+    creation_counter = 0
 
     def __init__(self, data=None, files=None, auto_id='id_%s', prefix=None,
                  initial=None, error_class=ErrorList, label_suffix=None,

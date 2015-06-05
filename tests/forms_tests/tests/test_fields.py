@@ -1307,6 +1307,7 @@ class FieldsTests(SimpleTestCase):
         expected = [
             ('/django/forms/__init__.py', '__init__.py'),
             ('/django/forms/fields.py', 'fields.py'),
+            ('/django/forms/form_containers.py', 'form_containers.py'),
             ('/django/forms/forms.py', 'forms.py'),
             ('/django/forms/formsets.py', 'formsets.py'),
             ('/django/forms/models.py', 'models.py'),
@@ -1327,6 +1328,7 @@ class FieldsTests(SimpleTestCase):
         expected = [
             ('/django/forms/__init__.py', '__init__.py'),
             ('/django/forms/fields.py', 'fields.py'),
+            ('/django/forms/form_containers.py', 'form_containers.py'),
             ('/django/forms/forms.py', 'forms.py'),
             ('/django/forms/formsets.py', 'formsets.py'),
             ('/django/forms/models.py', 'models.py'),
@@ -1347,6 +1349,7 @@ class FieldsTests(SimpleTestCase):
             ('/django/forms/extras/__init__.py', 'extras/__init__.py'),
             ('/django/forms/extras/widgets.py', 'extras/widgets.py'),
             ('/django/forms/fields.py', 'fields.py'),
+            ('/django/forms/form_containers.py', 'form_containers.py'),
             ('/django/forms/forms.py', 'forms.py'),
             ('/django/forms/formsets.py', 'formsets.py'),
             ('/django/forms/models.py', 'models.py'),

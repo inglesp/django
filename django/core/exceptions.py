@@ -79,6 +79,7 @@ class FieldError(Exception):
 
 
 NON_FIELD_ERRORS = '__all__'
+NON_FORM_ERRORS = '__all__'
 
 
 class ValidationError(Exception):
